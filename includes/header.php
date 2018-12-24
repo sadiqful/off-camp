@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
+    <title>Off-Camp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -36,6 +36,12 @@
 <div class="container">
 <div id="welcomeLine" class="row">
 	<div class="span6">Welcome!<strong> Bynalab</strong></div>
+	<div class="span6">
+	<div class="pull-right">
+	<span style="font-weight: bold; font-size: 15px;">Want to become an agent?</span> &nbsp;	
+    <a href="register.php"><span class="btn btn-mini btn-primary" style="font-size: 15px;"><i class="fa fa-user"></i> Request Account </span> </a> 
+	</div>
+	</div>
 </div>
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
@@ -45,8 +51,8 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
+    <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
+		<form class="form-inline navbar-search" method="post" action="products.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -59,9 +65,9 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
+	 <li class=""><a href="special_offer.php">Specials Offer</a></li>
+	 <li class=""><a href="normal.php">Delivery</a></li>
+	 <li class=""><a href="contact.php">Contact</a></li>
 	 <li class="">
 	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
