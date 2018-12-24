@@ -35,7 +35,7 @@
 <div id="header">
 <div class="container">
 <div id="welcomeLine" class="row">
-	<div class="span6">Welcome!<strong> User</strong></div>
+	<div class="span6">Welcome!<strong> Bynalab</strong></div>
 </div>
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
