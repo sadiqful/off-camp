@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="static/css/all.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="static/css/bootstrap.css">
+		<!-- Custom -->
+		<link rel="stylesheet" href="static/css/style.css">
+		<!-- Lightbox -->
+		<link rel="stylesheet" href="static/css/lightbox.min.css">
+		<title>Off-camp</title>
+	</head>
+	<body>
+
+		<!-- Top Bar -->
+		<section id="top-bar" class="p-3">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-4">
+				  <i class="fas fa-phone"></i> 09039099438
+				</div>
+				<div class="col-md-4">
+				  <i class="fas fa-envelope-open"></i> contact@Off-camp.com 
+				</div>
+				<div class="col-md-4">
+				  <div class="social text-right">
+					<a href="#">
+					  <i class="fab fa-twitter"></i>
+					</a>
+					<a href="#">
+					  <i class="fab fa-facebook"></i>
+					</a>
+					<a href="#">
+					  <i class="fab fa-linkedin"></i>
+					</a>
+					<a href="#">
+					  <i class="fab fa-instagram"></i>
+					</a>
+					<a href="#">
+					  <i class="fab fa-pinterest"></i>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  
+		
+		<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+	<div class="container">
+	  <a class="navbar-brand" href="pages/index.html">
+		<img src="img/logo.png" class="logo" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<ul class="navbar-nav">
+		  <li>
+			<a class="nav-link" href="pages/index.html">Home</a>
+		  </li>
+		  <li>
+			<a class="nav-link" href="pages/about.html">About</a>
+		  </li>
+		  <li>
+			<a class="nav-link" href="listings/listings.html">Featured Listings</a>
+		  </li>
+		</ul>
+	<!-- Showcase -->
+	<section id="showcase">
+	  <div class="container text-center">
+	    <div class="home-search p-5">
+	      <div class="overlay p-5">
+	        <h1 class="display-4 mb-4">
+	          House for rent searching Just Got So Easy
+	        </h1>
+	        <p class="lead">Easily access to agents and get a room now</p>
+	        <div class="search">
+	          <form action="listings/search.html">
+	            <!-- Form Row 1 -->
+	            <div class="form-row">
+	              <div class="col-md-4 mb-3">
+	                <label class="sr-only">Keywords</label>
+	                <input type="text" name="keywords" class="form-control" placeholder="Keyword (Pool, Garage, etc)">
+	              </div>
+
+	              <div class="col-md-4 mb-3">
+	                <label class="sr-only">City</label>
+	                <input type="text" name="city" class="form-control" placeholder="City">
+	              </div>
+
+	      
+	            </div>
+	            <!-- Form Row 2 -->
+	            <div class="form-row">
+	              <div class="col-md-6 mb-3">
+	                <label class="sr-only">Bedrooms</label>
+	                <select name="bedrooms" class="form-control">
+	                  <option selected="true" disabled="disabled">Bedrooms (All)</option>
+											<option value="key">value here</option>
+
+										</select>
+	              </div>
+	              <div class="col-md-6 mb-3">
+	                <select name="price" class="form-control" id="type">
+	                  <option selected="true" disabled="disabled">Max Price (Any)</option>
+
+										<option value=" key here">value here</option>
+
+									</select>
+	              </div>
+	            </div>
+	            <button class="btn btn-secondary btn-block mt-4" type="submit">Submit form</button>
+	          </form>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Alerts -->
+
+	<div id="message" class="container">
+		<div class="alert alert-dismissible text-center" role="alert">
+			<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+			<strong>
+			</strong>
+		</div>
+	</div>
+
+	<!-- Listings -->
+	<section id="listings" class="py-5">
+	  <div class="container">
+	    <h3 class="text-center mb-3">Latest Listings</h3>
+	    <div class="row">
+				
+						<!-- Listing 1 -->
+						<div class="col-md-6 col-lg-4 mb-4">
+						  <div class="card listing-preview">
+						    <img class="card-img-top" src=" " alt="">
+						    <div class="card-img-overlay">
+						      <h2>
+						        <span class="badge badge-secondary text-white"></span>
+						      </h2>
+						    </div>
+						    <div class="card-body">
+						      <div class="listing-heading text-center">
+						        <h4 class="text-primary"> listing title here</h4>
+						        
+						      </div>
+						      <hr>
+						
+						      <div class="row py-2 text-secondary">
+						        <div class="col-6">
+						          <i class="fas fa-bed"></i> Bedrooms: listing bedrooms here </div>
+						        <div class="col-6">
+						          <i class="fas fa-bath"></i> Bathrooms:  listing bathrooms </div>
+						      </div>
+						      <hr>
+						      <div class="row py-2 text-secondary">
+						        <div class="col-6">
+						          <i class="fas fa-user"></i> listing agent here</div>
+						      </div>
+						      <div class="row text-secondary pb-2">
+						        <div class="col-6">
+						          <i class="fas fa-clock"></i> </div>
+						      </div>
+						      <hr>
+						      <a href="" class="btn btn-primary btn-block">More Info</a>
+						    </div>
+						  </div>
+						</div>
+					
+					<p>No Listings Available</p>
+	    </div>
+	  </div>
+	</section>
+
+	<section id="services" class="py-5 bg-secondary text-white">
+	  <div class="container">
+	    <div class="row text-center">
+	      <div class="col-md-4">
+	        <i class="fas fa-comment fa-4x mr-4"></i>
+
+	      </div>
+	      
+	    </div>
+	  </div>
+	</section>
+	<!-- Footer -->
+<footer id="main-footer" class="py-4 bg-primary text-white text-center">
+  Copyright &copy;
+  <span class="year"></span> 	IBBUL Off-camp
+</footer>
+<!-- JS -->
+		<script src="static/js/jquery-3.3.1.min.js"></script>
+		<script src="static/js/bootstrap.bundle.min.js"></script>
+		<script src="static/js/lightbox.min.js"></script>
+		<script src="static/js/main.js"></script>
+</body>
+</html>
